@@ -8,7 +8,7 @@ using OpenQA.Selenium.Chrome;
 using SeleniumExtras.WaitHelpers;
 using System.IO;
 
-namespace RPAChalenge.Browser
+namespace RPAChallenge.Browser
 {
     public class Elementos
     {
@@ -156,3 +156,4 @@ namespace RPAChalenge.Browser
             return texto;
         }
     }
+}

@@ -1,8 +1,9 @@
-﻿using RPAChalenge.Browser;
+﻿using RPAChallenge.Browser;
+using RPAChallenge.Util;
 using System;
 
 
-namespace RPAChalenge
+namespace RPAChallenge
 {
     class Program
     {
@@ -18,29 +19,29 @@ namespace RPAChalenge
             }
 
             ExecutandoElementos elementos = new ExecutandoElementos();
-
             elementos.Download();
+            Thread.Sleep(5000);
 
-            Workbook wb = new Workbook(@"C:\Users\Rogerio\Downloads\Challenge.xlsx");
-            Worksheet ws = new Worksheet();
-
+            Excel excel = new Excel();
+            var wb = excel.AbrindoArquivo(@"C:\Users\Rogerio\Downloads\Challenge.xlsx");
+            var ws = wb.Worksheets.First(w => w.Name == "Sheet1");
 
             elementos.Start();
-            int row = 2;
 
+            int row = 2;
             do
             {
-                elementos.Adress = ws[$"E{row}"].ToString();
-                elementos.Email = ws[$"F{row}"].ToString();
-                elementos.CompanyName = ws[$"C{row}"].ToString();
-                elementos.FirstName = ws[$"A{row}"].ToString();
-                elementos.LastName = ws[$"B{row}"].ToString();
-                elementos.PhoneNumber = ws[$"G{row}"].ToString();
-                elementos.RoleInCompany = ws[$"D{row}"].ToString();
+                elementos.Adress = ws.Cell($"E{row}").Value.ToString();
+                elementos.Email = ws.Cell($"F{row}").Value.ToString();
+                elementos.CompanyName = ws.Cell($"C{row}").Value.ToString();
+                elementos.FirstName = ws.Cell($"A{row}").Value.ToString();
+                elementos.LastName = ws.Cell($"B{row}").Value.ToString();
+                elementos.PhoneNumber = ws.Cell($"G{row}").Value.ToString();
+                elementos.RoleInCompany = ws.Cell($"D{row}").Value.ToString();
                 elementos.Acao();
                 elementos.Submit();
                 row++;
-            } while (ws[$"a{row}"].ToString() != "");
+            } while (ws.Cell($"a{row}").Value.ToString() != "");
 
             elementos.Congrulations();
         }
