@@ -17,34 +17,27 @@ namespace RPAChallenge
                     File.Delete(arquivo);
                 }
             }
-
             ExecutandoElementos elementos = new ExecutandoElementos();
             elementos.Download();
             Thread.Sleep(5000);
-
-            Excel excel = new Excel();
-            var wb = excel.AbrindoArquivo(@"C:\Users\Rogerio\Downloads\Challenge.xlsx");
-            var ws = wb.Worksheets.First(w => w.Name == "Sheet1");
-
-            elementos.Start();
-
+            Excel excel = new Excel(@"C:\Users\Rogerio\Downloads\Challenge.xlsx", "Sheet1");          
             int row = 2;
+            bool dadosExcel = true;
             do
             {
-                elementos.Adress = ws.Cell($"E{row}").Value.ToString();
-                elementos.Email = ws.Cell($"F{row}").Value.ToString();
-                elementos.CompanyName = ws.Cell($"C{row}").Value.ToString();
-                elementos.FirstName = ws.Cell($"A{row}").Value.ToString();
-                elementos.LastName = ws.Cell($"B{row}").Value.ToString();
-                elementos.PhoneNumber = ws.Cell($"G{row}").Value.ToString();
-                elementos.RoleInCompany = ws.Cell($"D{row}").Value.ToString();
+                elementos.Adress = excel.Ws.Cell($"E{row}").Value.ToString();
+                elementos.Email = excel.Ws.Cell($"F{row}").Value.ToString();
+                elementos.CompanyName = excel.Ws.Cell($"C{row}").Value.ToString();
+                elementos.FirstName = excel.Ws.Cell($"A{row}").Value.ToString();
+                elementos.LastName = excel.Ws.Cell($"B{row}").Value.ToString();
+                elementos.PhoneNumber = excel.Ws.Cell($"G{row}").Value.ToString();
+                elementos.RoleInCompany = excel.Ws.Cell($"D{row}").Value.ToString();
+                elementos.Start();
                 elementos.Acao();
                 elementos.Submit();
                 row++;
-            } while (ws.Cell($"a{row}").Value.ToString() != "");
-
+            } while (excel.Ws.Cell($"a{row}").Value.ToString() != "");
             elementos.Congrulations();
-
             elementos.Reset();
         }
     }
