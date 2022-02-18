@@ -138,6 +138,15 @@ namespace RPAChallenge.Browser
             driver.FindElement(By.XPath(".//input[@class='btn uiColorButton']")).Click();
         }
 
+        public void Reset()
+        {
+            int contador = 0;
+            do
+            {
+                driver.FindElement(By.XPath(".//button[@class='waves-effect col s12 m12 l12 btn-large uiColorButton']")).Click();
+            } while (wait(".//button[@class='waves-effect col s12 m12 l12 btn-large uiColorButton']") == false & contador <= 3);
+        }
+
         public string Congrulations()
         {
             int contador = 0;
@@ -157,3 +166,6 @@ namespace RPAChallenge.Browser
         }
     }
 }
+
+
+//.//button[@class='waves-effect col s12 m12 l12 btn-large uiColorButton']

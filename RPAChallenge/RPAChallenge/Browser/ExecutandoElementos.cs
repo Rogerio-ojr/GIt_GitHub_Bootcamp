@@ -36,6 +36,11 @@ namespace RPAChallenge.Browser
             elementos.Start();
         }
 
+        public void Reset()
+        {
+            elementos.Reset();
+        }
+
         public void Submit()
         {
             elementos.Submit();

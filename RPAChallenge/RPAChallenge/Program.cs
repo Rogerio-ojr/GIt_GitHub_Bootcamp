@@ -44,6 +44,8 @@ namespace RPAChallenge
             } while (ws.Cell($"a{row}").Value.ToString() != "");
 
             elementos.Congrulations();
+
+            elementos.Reset();
         }
     }
 }
