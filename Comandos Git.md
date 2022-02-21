@@ -1,7 +1,3 @@
-
-
-
-
 # Links Importantes #
 
 https://comandosgit.github.io/
