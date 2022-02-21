@@ -88,3 +88,7 @@ Comandos que alteram os status dos arquivos, conforme estrutura acima.
 ​		Comando para clone
 
 ​		- git clone httpsDoRepositorioCriadoNoGitHub
+
+Comando para Criação de uma nova Branche
+  - git checkout -b nomeDaBranche
+  
