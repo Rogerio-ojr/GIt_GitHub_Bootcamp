@@ -6,13 +6,13 @@ namespace RPAChallenge.Browser
 {
     public class ExecutandoElementos
     {
-        public string FirstName { get; set; }
-        public string CompanyName { get; set; }
-        public string PhoneNumber { get; set; }
-        public string RoleInCompany { get; set; }
-        public string Adress { get; set; }
-        public string LastName { get; set; }
-        public string Email { get; set; }
+        public string FirstName { get; private set; }
+        public string CompanyName { get; private set; }
+        public string PhoneNumber { get; private set; }
+        public string RoleInCompany { get; private set; }
+        public string Adress { get; private set; }
+        public string LastName { get; private set; }
+        public string Email { get; private set; }
 
         Elementos elementos = new Elementos();
         public void Download()
@@ -30,6 +30,18 @@ namespace RPAChallenge.Browser
             elementos.LabelPhone(PhoneNumber);
             elementos.LabelRole(RoleInCompany);
         }
+
+        public void DadoASerPreenchido(string adress, string email, string companyName, string firstName, string lastName, string phoneNumber, string roleInCompany)
+        {
+            Adress = adress;
+            Email = email;
+            CompanyName = companyName;
+            FirstName = firstName;
+            LastName = lastName;
+            PhoneNumber = phoneNumber;
+            RoleInCompany = roleInCompany;
+        }
+
 
         public void Start()
         {
