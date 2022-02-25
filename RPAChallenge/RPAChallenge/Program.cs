@@ -1,7 +1,8 @@
 ﻿using RPAChallenge.Browser;
 using RPAChallenge.Util;
 using System;
-
+using RPAChallenge.Enums;
+using System.Text;
 
 namespace RPAChallenge
 {
@@ -9,6 +10,11 @@ namespace RPAChallenge
     {
         static void Main(string[] args)
         {
+            foreach(string arg in args)
+            {
+                Console.WriteLine(arg); 
+            }
+
             var todosArquivos = Directory.GetFiles(@"C:\Users\Rogerio\Downloads");
             foreach (string arquivo in todosArquivos)
             {
