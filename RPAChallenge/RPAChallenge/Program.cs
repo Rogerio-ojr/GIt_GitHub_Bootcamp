@@ -1,7 +1,6 @@
 ﻿using RPAChallenge.Browser;
 using RPAChallenge.Util;
 using System;
-using RPAChallenge.Enums;
 using System.Text;
 
 namespace RPAChallenge

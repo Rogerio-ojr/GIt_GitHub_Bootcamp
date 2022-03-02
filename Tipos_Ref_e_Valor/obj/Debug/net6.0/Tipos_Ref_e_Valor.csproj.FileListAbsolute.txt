@@ -1,0 +1,15 @@
+C:\_Git\GIt_GitHub_Bootcamp\Tipos_Ref_e_Valor\bin\Debug\net6.0\Tipos_Ref_e_Valor.exe
+C:\_Git\GIt_GitHub_Bootcamp\Tipos_Ref_e_Valor\bin\Debug\net6.0\Tipos_Ref_e_Valor.deps.json
+C:\_Git\GIt_GitHub_Bootcamp\Tipos_Ref_e_Valor\bin\Debug\net6.0\Tipos_Ref_e_Valor.runtimeconfig.json
+C:\_Git\GIt_GitHub_Bootcamp\Tipos_Ref_e_Valor\bin\Debug\net6.0\Tipos_Ref_e_Valor.dll
+C:\_Git\GIt_GitHub_Bootcamp\Tipos_Ref_e_Valor\bin\Debug\net6.0\Tipos_Ref_e_Valor.pdb
+C:\_Git\GIt_GitHub_Bootcamp\Tipos_Ref_e_Valor\obj\Debug\net6.0\Tipos_Ref_e_Valor.csproj.AssemblyReference.cache
+C:\_Git\GIt_GitHub_Bootcamp\Tipos_Ref_e_Valor\obj\Debug\net6.0\Tipos_Ref_e_Valor.GeneratedMSBuildEditorConfig.editorconfig
+C:\_Git\GIt_GitHub_Bootcamp\Tipos_Ref_e_Valor\obj\Debug\net6.0\Tipos_Ref_e_Valor.AssemblyInfoInputs.cache
+C:\_Git\GIt_GitHub_Bootcamp\Tipos_Ref_e_Valor\obj\Debug\net6.0\Tipos_Ref_e_Valor.AssemblyInfo.cs
+C:\_Git\GIt_GitHub_Bootcamp\Tipos_Ref_e_Valor\obj\Debug\net6.0\Tipos_Ref_e_Valor.csproj.CoreCompileInputs.cache
+C:\_Git\GIt_GitHub_Bootcamp\Tipos_Ref_e_Valor\obj\Debug\net6.0\Tipos_Ref_e_Valor.dll
+C:\_Git\GIt_GitHub_Bootcamp\Tipos_Ref_e_Valor\obj\Debug\net6.0\refint\Tipos_Ref_e_Valor.dll
+C:\_Git\GIt_GitHub_Bootcamp\Tipos_Ref_e_Valor\obj\Debug\net6.0\Tipos_Ref_e_Valor.pdb
+C:\_Git\GIt_GitHub_Bootcamp\Tipos_Ref_e_Valor\obj\Debug\net6.0\Tipos_Ref_e_Valor.genruntimeconfig.cache
+C:\_Git\GIt_GitHub_Bootcamp\Tipos_Ref_e_Valor\obj\Debug\net6.0\ref\Tipos_Ref_e_Valor.dll

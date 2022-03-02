@@ -21,6 +21,7 @@ namespace Revisao
                             Aluno aluno = new Aluno(); //Instacia de Alunos                                            
                             Console.WriteLine("Gentileza informar o Nome Completo do Aluno");
                             aluno.Nome = Console.ReadLine();
+
                             Console.WriteLine("Gentileza informar a nota do aluno");                        
                             if(decimal.TryParse(Console.ReadLine(), out decimal a))
                             {
@@ -29,6 +30,7 @@ namespace Revisao
                             {
                                 throw new ArgumentException("Favor informar a nota do aluno no sistema decimal.");
                             }
+                            
                             alunos[indiceAluno] = aluno;
                             indiceAluno++;
                         }else
