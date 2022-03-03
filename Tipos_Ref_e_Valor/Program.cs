@@ -7,39 +7,45 @@ namespace Tipos_Ref_e_Valor
     {
         static void Main()
         {
-            Console.WriteLine("Digite a sua opção:");
-            Console.WriteLine("1 - Cadastro");
-            Console.WriteLine("x - Finalizar Cadastro");
+            var opcaoSelecionadaPeloUsusario = OpcaoUsuario.SelecionarOpcaoUsuario();
 
-            var opcaoUsuario = Console.ReadLine();
-            
             List<Pessoa> pessoas = new List<Pessoa>();
-
-            while(opcaoUsuario.ToUpper() != "X")
+            while(opcaoSelecionadaPeloUsusario.ToUpper() != "X")
             {
-                Pessoa pessoa = new Pessoa();
-                var index = Pessoa.QtdPessoas;
-
-                Console.WriteLine("Digite o Nome");
-                pessoa.Nome = Console.ReadLine();
-
-                Console.WriteLine("Digite a Idade");
-                pessoa.Idade = Convert.ToInt32(Console.ReadLine());
-
-                Console.WriteLine("Digite o Documento");
-                pessoa.Documento = Console.ReadLine();
-
-
-                pessoas.Insert(index-1, pessoa); 
-
-                Console.WriteLine("Digite a sua opção:");
-                Console.WriteLine("1 - Cadastro");
-                Console.WriteLine("x - Finalizar Cadastro");
-                opcaoUsuario = Console.ReadLine();
-            }
-            foreach (var item in pessoas)
-            {
-                Console.WriteLine($"{item.Nome} - {item.Idade} - {item.Documento}");
+                switch(opcaoSelecionadaPeloUsusario)
+                {
+                    case "1":
+                        var cadastroPessoa = AcoesUsuario.Cadastro();
+                        var indice = Pessoa.QtdPessoas;                     
+                        pessoas.Insert(indice-1, cadastroPessoa);
+                        break;
+                    case "2":
+                        var nome = OpcaoUsuario.NomeQueDeveSerConsultado();
+                        var DocumentoConsultada = AcoesUsuario.ProcurarDocumento(pessoas, nome);
+                        if(DocumentoConsultada is null)
+                        {
+                            Console.WriteLine($"O Nome Digitado não consta na base de Pessoas:");
+                        }else
+                        {
+                            Console.WriteLine($"O Documento de {nome} e: {DocumentoConsultada}");
+                        }
+                        break;                        
+                    case "3":
+                        nome = OpcaoUsuario.NomeQueDeveSerConsultado();
+                        var IdadeConsultada = AcoesUsuario.ProcurarIdade(pessoas, nome);
+                        if(IdadeConsultada is null)
+                        {
+                            Console.WriteLine($"O Nome Digitado não consta na base de Pessoas:");
+                        }else
+                        {
+                            Console.WriteLine($"A Idade de {nome} e: {IdadeConsultada}");
+                        }                        
+                        break;
+                    default:
+                        throw new ArgumentException("Digite um valor Valido no Menu de Opções:");
+                        break;
+                }
+                opcaoSelecionadaPeloUsusario = OpcaoUsuario.SelecionarOpcaoUsuario();
             }
         }
     }
