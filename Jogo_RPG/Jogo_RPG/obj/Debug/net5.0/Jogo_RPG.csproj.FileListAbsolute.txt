@@ -1,0 +1,16 @@
+C:\_Git\GIt_GitHub_Bootcamp\Jogo_RPG\Jogo_RPG\bin\Debug\net5.0\Jogo_RPG.exe
+C:\_Git\GIt_GitHub_Bootcamp\Jogo_RPG\Jogo_RPG\bin\Debug\net5.0\Jogo_RPG.deps.json
+C:\_Git\GIt_GitHub_Bootcamp\Jogo_RPG\Jogo_RPG\bin\Debug\net5.0\Jogo_RPG.runtimeconfig.json
+C:\_Git\GIt_GitHub_Bootcamp\Jogo_RPG\Jogo_RPG\bin\Debug\net5.0\Jogo_RPG.runtimeconfig.dev.json
+C:\_Git\GIt_GitHub_Bootcamp\Jogo_RPG\Jogo_RPG\bin\Debug\net5.0\Jogo_RPG.dll
+C:\_Git\GIt_GitHub_Bootcamp\Jogo_RPG\Jogo_RPG\bin\Debug\net5.0\Jogo_RPG.pdb
+C:\_Git\GIt_GitHub_Bootcamp\Jogo_RPG\Jogo_RPG\obj\Debug\net5.0\Jogo_RPG.csproj.AssemblyReference.cache
+C:\_Git\GIt_GitHub_Bootcamp\Jogo_RPG\Jogo_RPG\obj\Debug\net5.0\Jogo_RPG.GeneratedMSBuildEditorConfig.editorconfig
+C:\_Git\GIt_GitHub_Bootcamp\Jogo_RPG\Jogo_RPG\obj\Debug\net5.0\Jogo_RPG.AssemblyInfoInputs.cache
+C:\_Git\GIt_GitHub_Bootcamp\Jogo_RPG\Jogo_RPG\obj\Debug\net5.0\Jogo_RPG.AssemblyInfo.cs
+C:\_Git\GIt_GitHub_Bootcamp\Jogo_RPG\Jogo_RPG\obj\Debug\net5.0\Jogo_RPG.csproj.CoreCompileInputs.cache
+C:\_Git\GIt_GitHub_Bootcamp\Jogo_RPG\Jogo_RPG\obj\Debug\net5.0\Jogo_RPG.dll
+C:\_Git\GIt_GitHub_Bootcamp\Jogo_RPG\Jogo_RPG\obj\Debug\net5.0\refint\Jogo_RPG.dll
+C:\_Git\GIt_GitHub_Bootcamp\Jogo_RPG\Jogo_RPG\obj\Debug\net5.0\Jogo_RPG.pdb
+C:\_Git\GIt_GitHub_Bootcamp\Jogo_RPG\Jogo_RPG\obj\Debug\net5.0\Jogo_RPG.genruntimeconfig.cache
+C:\_Git\GIt_GitHub_Bootcamp\Jogo_RPG\Jogo_RPG\obj\Debug\net5.0\ref\Jogo_RPG.dll

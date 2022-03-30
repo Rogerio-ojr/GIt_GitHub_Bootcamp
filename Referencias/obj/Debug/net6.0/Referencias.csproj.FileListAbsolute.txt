@@ -1,0 +1,15 @@
+C:\_Git\GIt_GitHub_Bootcamp\Referencias\bin\Debug\net6.0\Referencias.exe
+C:\_Git\GIt_GitHub_Bootcamp\Referencias\bin\Debug\net6.0\Referencias.deps.json
+C:\_Git\GIt_GitHub_Bootcamp\Referencias\bin\Debug\net6.0\Referencias.runtimeconfig.json
+C:\_Git\GIt_GitHub_Bootcamp\Referencias\bin\Debug\net6.0\Referencias.dll
+C:\_Git\GIt_GitHub_Bootcamp\Referencias\bin\Debug\net6.0\Referencias.pdb
+C:\_Git\GIt_GitHub_Bootcamp\Referencias\obj\Debug\net6.0\Referencias.csproj.AssemblyReference.cache
+C:\_Git\GIt_GitHub_Bootcamp\Referencias\obj\Debug\net6.0\Referencias.GeneratedMSBuildEditorConfig.editorconfig
+C:\_Git\GIt_GitHub_Bootcamp\Referencias\obj\Debug\net6.0\Referencias.AssemblyInfoInputs.cache
+C:\_Git\GIt_GitHub_Bootcamp\Referencias\obj\Debug\net6.0\Referencias.AssemblyInfo.cs
+C:\_Git\GIt_GitHub_Bootcamp\Referencias\obj\Debug\net6.0\Referencias.csproj.CoreCompileInputs.cache
+C:\_Git\GIt_GitHub_Bootcamp\Referencias\obj\Debug\net6.0\Referencias.dll
+C:\_Git\GIt_GitHub_Bootcamp\Referencias\obj\Debug\net6.0\refint\Referencias.dll
+C:\_Git\GIt_GitHub_Bootcamp\Referencias\obj\Debug\net6.0\Referencias.pdb
+C:\_Git\GIt_GitHub_Bootcamp\Referencias\obj\Debug\net6.0\Referencias.genruntimeconfig.cache
+C:\_Git\GIt_GitHub_Bootcamp\Referencias\obj\Debug\net6.0\ref\Referencias.dll

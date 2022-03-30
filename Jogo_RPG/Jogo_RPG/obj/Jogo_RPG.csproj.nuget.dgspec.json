@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\_Git\\GIt_GitHub_Bootcamp\\RPAChallenge\\RPAChallenge\\RPAChallenge.csproj": {}
+    "C:\\_Git\\GIt_GitHub_Bootcamp\\Jogo_RPG\\Jogo_RPG\\Jogo_RPG.csproj": {}
   },
   "projects": {
-    "C:\\_Git\\GIt_GitHub_Bootcamp\\RPAChallenge\\RPAChallenge\\RPAChallenge.csproj": {
+    "C:\\_Git\\GIt_GitHub_Bootcamp\\Jogo_RPG\\Jogo_RPG\\Jogo_RPG.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\_Git\\GIt_GitHub_Bootcamp\\RPAChallenge\\RPAChallenge\\RPAChallenge.csproj",
-        "projectName": "RPAChallenge",
-        "projectPath": "C:\\_Git\\GIt_GitHub_Bootcamp\\RPAChallenge\\RPAChallenge\\RPAChallenge.csproj",
+        "projectUniqueName": "C:\\_Git\\GIt_GitHub_Bootcamp\\Jogo_RPG\\Jogo_RPG\\Jogo_RPG.csproj",
+        "projectName": "Jogo_RPG",
+        "projectPath": "C:\\_Git\\GIt_GitHub_Bootcamp\\Jogo_RPG\\Jogo_RPG\\Jogo_RPG.csproj",
         "packagesPath": "C:\\Users\\Rogerio\\.nuget\\packages\\",
-        "outputPath": "C:\\_Git\\GIt_GitHub_Bootcamp\\RPAChallenge\\RPAChallenge\\obj\\",
+        "outputPath": "C:\\_Git\\GIt_GitHub_Bootcamp\\Jogo_RPG\\Jogo_RPG\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -22,7 +22,7 @@
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
-          "net6.0"
+          "net5.0"
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
@@ -30,8 +30,8 @@
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
-          "net6.0": {
-            "targetAlias": "net6.0",
+          "net5.0": {
+            "targetAlias": "net5.0",
             "projectReferences": {}
           }
         },
@@ -42,30 +42,8 @@
         }
       },
       "frameworks": {
-        "net6.0": {
-          "targetAlias": "net6.0",
-          "dependencies": {
-            "ClosedXML": {
-              "target": "Package",
-              "version": "[0.95.4, )"
-            },
-            "DotNetSeleniumExtras.WaitHelpers": {
-              "target": "Package",
-              "version": "[3.11.0, )"
-            },
-            "Selenium.Support": {
-              "target": "Package",
-              "version": "[4.1.0, )"
-            },
-            "Selenium.WebDriver": {
-              "target": "Package",
-              "version": "[4.1.0, )"
-            },
-            "Selenium.WebDriver.ChromeDriver": {
-              "target": "Package",
-              "version": "[98.0.4758.10200, )"
-            }
-          },
+        "net5.0": {
+          "targetAlias": "net5.0",
           "imports": [
             "net461",
             "net462",
@@ -81,7 +59,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.200\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.201\\RuntimeIdentifierGraph.json"
         }
       }
     }
