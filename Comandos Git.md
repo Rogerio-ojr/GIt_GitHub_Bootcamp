@@ -82,8 +82,15 @@ Comandos que alteram os status dos arquivos, conforme estrutura acima.
   - Na Pasta do Projeto executar os seguintes comandos
 
     > - git remote add origin httpsDoRepositorioCriadoNoGitHub
+    >
     > - git remote - v (lista as listas de repositorios)
+    >
     > - git push origin master 
+    >
+    > - ```
+    >   git pull --rebase origin main
+    >   git push origin main
+    >   ```
     
   - Pull comando para puxar alterações realizadas por outras pssoas
   
